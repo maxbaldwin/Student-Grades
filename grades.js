@@ -9,5 +9,9 @@ for(var i = 0; i < scores.length; ++i){
 console.log(scores.length);
 
 //What is the lowest grade?
+var minMath = Math.min(...scores); 
+console.log(minMath); 
 
 //What is the highest grade?
+var maxMath = Math.max(...scores); 
+console.log(maxMath); 
